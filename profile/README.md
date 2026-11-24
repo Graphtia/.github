@@ -12,6 +12,8 @@ Graphtia Explorer builds a local map of your codebase. Start with a function, se
 
 ## What you can do today
 
+**Already in the public beta: Explorer Code Context.** Use focused code navigation and relationship views to investigate a symbol, and check which indexed revision the source evidence comes from. [See it in Explorer](https://graphtia.com/docs/explorer-overview).
+
 - **Trace a change.** Search for files and symbols, follow callers, callees, and dependencies, then inspect potential impact and relevant tests. The graph, source, and inspector stay together as you investigate.
 - **Follow a feature across layers.** Trace supported relationships from a client to an API handler or database reference. Inspect OpenAPI declarations and PostgreSQL, MySQL, or SQLite schemas alongside code and indexed project docs.
 - **Give coding agents source-backed context.** Connect [Codex, Claude Code, VS Code/Copilot, and other MCP clients](https://graphtia.com/docs/integrations) to an approved workspace. Ask which functions call a symbol, what might be affected, and which source lines support the answer.
@@ -25,8 +27,7 @@ Explorer shows static relationships, not a runtime trace. When a result depends 
 
 | Status | Focus |
 | --- | --- |
-| **In progress** | [Explorer code context](https://graphtia.com/roadmap/explorer-code-context): more focused navigation and relationship views, and clearer ways to see which revision the source evidence comes from. |
-| **Planned** | [Product onboarding](https://graphtia.com/roadmap/product-onboarding): clearer setup, supported-environment guidance, and account flows. |
+| **Planned** | [Onboarding improvements](https://graphtia.com/roadmap/product-onboarding): make the existing install and sign-in flow easier to follow and clarify which environments are supported. |
 | **Exploring** | [Graphtia Governance](https://graphtia.com/docs/governance-overview): make longer-running engineering work reviewable through plans, scoped work, and evidence. Governance is not publicly available. |
 
 [Public roadmap](https://graphtia.com/roadmap) · [Changelog](https://graphtia.com/changelog) · [Website](https://graphtia.com/) · [Contact](https://graphtia.com/contact)
