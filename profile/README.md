@@ -25,6 +25,10 @@ Explorer shows static relationships, not a runtime trace. When a result depends 
 
 ## What we're working on
 
+**Next Explorer update:** We're refining the desktop interface, deepening semantic analysis so Explorer can resolve more code relationships, and working to shorten indexing times. These improvements are in development and planned for an upcoming update.
+
+Other roadmap items:
+
 | Status | Focus |
 | --- | --- |
 | **Planned** | [Onboarding improvements](https://graphtia.com/roadmap/product-onboarding): make the existing install and sign-in flow easier to follow and clarify which environments are supported. |
