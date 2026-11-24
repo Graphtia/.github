@@ -16,12 +16,20 @@ Graphtia Explorer builds a local map of your codebase. Start with a function, se
 
 - **Trace a change.** Search for files and symbols, follow callers, callees, and dependencies, then inspect potential impact and relevant tests. The graph, source, and inspector stay together as you investigate.
 - **Follow a feature across layers.** Trace supported relationships from a client to an API handler or database reference. Inspect OpenAPI declarations and PostgreSQL, MySQL, or SQLite schemas alongside code and indexed project docs.
-- **Give coding agents source-backed context.** Connect [Codex, Claude Code, VS Code/Copilot, and other MCP clients](https://graphtia.com/docs/integrations) to an approved workspace. Ask which functions call a symbol, what might be affected, and which source lines support the answer.
+- **Check the evidence.** See the source locations and indexed revision behind a result, inspect structural findings, and follow recorded agent queries back to their targets in Explorer.
 - **Work across languages.** Explore TypeScript/JavaScript, Rust, Go, Java, C#, Python, PHP, and more, including supported patterns in React/Next.js, Spring, ASP.NET Core, and Django. [Check language and framework coverage](https://graphtia.com/docs/language-support).
 
 [![Explorer's split view showing the checkout service graph, verified TypeScript source, and inspector](https://graphtia.com/product/explorer-guide-20261103/explorer-selected-module-windows.jpg)](https://graphtia.com/docs/explorer-overview)
 
 Explorer shows static relationships, not a runtime trace. When a result depends on a particular indexed revision or a relationship cannot be resolved, read the source evidence before relying on it. [See what's included in the public beta](https://graphtia.com/changelog/0.1.101).
+
+## Supported coding agents and clients
+
+**Native integrations:** Codex, Claude Code, OpenCode, Antigravity, VS Code with GitHub Copilot, Devin Desktop, and MiniMax Code.
+
+**Universal MCP:** Other coding clients can connect if they support a local MCP server over stdio. [See integration and setup guides](https://graphtia.com/docs/integrations).
+
+Clients get read-only access to the workspaces you approve. They can search symbols, follow callers and dependencies, inspect potential impact and related-test candidates, and look up supported API contracts, database declarations, and indexed docs. For example: *Which functions call this symbol, what tests should I look at, and which source lines support the answer?*
 
 ## What we're working on
 
