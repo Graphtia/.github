@@ -8,9 +8,13 @@ Engineering software for the agentic era.
 
 Understand complex software. Give AI better context. Build with confidence.
 
-Website · Early Access · Documentation
+[Website](https://graphtia.com/) · [Downloads](https://graphtia.com/downloads) · [Documentation](https://graphtia.com/docs)
 
 </div>
+
+## Try Graphtia Explorer Free
+
+**[Download Explorer Free](https://graphtia.com/downloads)** for Windows x64 or Linux x64 (Ubuntu-compatible). The public beta is open to everyone. No invitation is required. Download the app, then sign in with a free Graphtia account to start exploring your codebase.
 
 What we're building
 
@@ -102,13 +106,9 @@ CONTEXT
   ↓
 BETTER ENGINEERING DECISIONS
 
-Early access
+## Get started
 
-Graphtia is currently under active development.
-
-Join the early-access list to follow development and hear when access becomes available.
-
-→ graphtia.com
+[Download Graphtia Explorer](https://graphtia.com/downloads) or follow the [installation guide](https://graphtia.com/docs/installing-explorer).
 
 Open source & integrations
 
