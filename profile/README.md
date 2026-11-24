@@ -27,11 +27,6 @@ Explorer shows static relationships, not a runtime trace. When a result depends 
 
 **Next Explorer update:** We're refining the desktop interface, deepening semantic analysis so Explorer can resolve more code relationships, and working to shorten indexing times. These improvements are in development and planned for an upcoming update.
 
-Other roadmap items:
-
-| Status | Focus |
-| --- | --- |
-| **Planned** | [Onboarding improvements](https://graphtia.com/roadmap/product-onboarding): make the existing install and sign-in flow easier to follow and clarify which environments are supported. |
-| **Exploring** | [Graphtia Governance](https://graphtia.com/docs/governance-overview): make longer-running engineering work reviewable through plans, scoped work, and evidence. Governance is not publicly available. |
+**Further out:** [Graphtia Governance](https://graphtia.com/docs/governance-overview) is a separate product direction. It is not part of the next Explorer update and is not publicly available.
 
 [Public roadmap](https://graphtia.com/roadmap) · [Changelog](https://graphtia.com/changelog) · [Website](https://graphtia.com/) · [Contact](https://graphtia.com/contact)
